@@ -18,8 +18,7 @@ import playsound
 # from langchain.callbacks.stdout import StdOutCallbackHandler
 # from langchain.chains import
 
-# openai_api_key = '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'
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = """Enter your openai api key here"""
 
 llm_model = "gpt-3.5-turbo"
 history = ChatMessageHistory()

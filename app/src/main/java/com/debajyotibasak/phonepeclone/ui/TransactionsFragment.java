@@ -48,25 +48,27 @@ public class TransactionsFragment extends Fragment {
 
         ArrayList<TransactionModel> transactionList = new ArrayList<>();
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "2 days ago", "Paid to",
-                "Swiggy", getResources().getString(R.string.rupees) + "250", "Debited from"));
+                "Nalanda Hostel", getResources().getString(R.string.rupees) + "25000", "Debited from"));
+        transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "2 days ago", "Paid to",
+                "Kamlesh Hospital", getResources().getString(R.string.rupees) + "850", "Debited from"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "3 days ago", "Paid to",
                 "Zomato", getResources().getString(R.string.rupees) + "150", "Debited from"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_account, "3 days ago", "Cashback from",
-                "Mojo Pizza", getResources().getString(R.string.rupees) + "50", "Credited to"));
+                "Swiggy", getResources().getString(R.string.rupees) + "50", "Credited to"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "3 days ago", "Paid to",
-                "Mojo Pizza", getResources().getString(R.string.rupees) + "150", "Debited from"));
+                "Khadims", getResources().getString(R.string.rupees) + "1500", "Debited from"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_account, "4 days ago", "Cashback from",
                 "Mojo Pizza", getResources().getString(R.string.rupees) + "50", "Credited to"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "4 days ago", "Paid to",
-                "Mojo Pizza", getResources().getString(R.string.rupees) + "150", "Debited from"));
+                "Blinkit", getResources().getString(R.string.rupees) + "150", "Debited from"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "5 days ago", "Paid to",
                 "Flipkart", getResources().getString(R.string.rupees) + "250", "Debited from"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "5 days ago", "Paid to",
                 "Amazon", getResources().getString(R.string.rupees) + "150", "Debited from"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "6 days ago", "Paid to",
-                "Google Play", getResources().getString(R.string.rupees) + "250", "Debited from"));
+                "Google Play", getResources().getString(R.string.rupees) + "866", "Debited from"));
         transactionList.add(new TransactionModel(R.drawable.ic_to_contact, "6 days ago", "Paid to",
-                "Amazon", getResources().getString(R.string.rupees) + "150", "Debited from"));
+                "GLBITM", getResources().getString(R.string.rupees) + "150000", "Debited from"));
         TransactionsAdapter adapter = new TransactionsAdapter(context, transactionList);
         mRecyclerview.setAdapter(adapter);
         return view;

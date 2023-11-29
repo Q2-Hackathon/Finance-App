@@ -4,15 +4,21 @@ This an demo app to showcase Q2 some innovative features.
 Below are some Screenshots demonstrating our app:
 ---
 Initiating
+<br>
 <img src="./1.jpeg" alt="Alt Text" width="300" />
 
-![Alt Text](./1.jpeg)
 ---
 Home Screen
-![Alt Text](./2.jpeg)
+<br>
+<img src="./2.jpeg" alt="Alt Text" width="300" />
+
 ---
 Transaction History
-![Alt Text](./3.jpeg)
+<br>
+<img src="./3.jpeg" alt="Alt Text" width="300" />
+
 ---
 InsightHub
-![Alt Text](./4.jpeg)
+<br>
+<img src="./4.jpeg" alt="Alt Text" width="300" />
+

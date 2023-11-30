@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap&family=Alkalami&family=Secular+One&display=swap&family=Lato:wght@900&display=swap&family=Titillium+Web:wght@900&display=swap&family=Aclonica:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --aclonica: "Aclonica", sans-serif;
+    --color: black;
+}
+
+body {
+    background-color: rgb(248, 246, 246);
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.nav {
+    display: flex;
+    color: white;
+    background: rgb(53, 53, 53);
+    width: 100%;
+    height: 5vh;
+}
+
+.nav_left {
+    width: 50%;
+}
+
+.btn_nav_left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    height: 40px;
+    width: 25%;
+    color: white;
+    border: 1px black solid;
+    font-size: 15px;
+    gap: 3px;
+    outline: none;
+    background: black;
+    cursor: pointer;
+}
+
+/* .ul{
+    color: black;
+} */
+.nav_right {
+    display: flex;
+    width: 50%;
+}
+
+.nav_right ul {
+    display: flex;
+    padding: 7px;
+    justify-content: space-around;
+    width: 85%;
+    list-style: none;
+}
+
+.nav_right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_nav_right {
+    position: sticky;
+    background: black;
+    color: white;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+    border: 1px black solid;
+}
+
+/* ---------------------------------firstSection------------------------------ */
+.firstSection {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+}
+
+.logo img {
+    padding-left: 20px;
+    width: 75px;
+    height: 35px;
+}
+
+.list {
+    width: 100%;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 10%; */
+}
+
+.list ul li {
+    font-weight: 600;
+    list-style: none;
+}
+
+.list ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.right {
+    width: 50%;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.right>div {
+    font-size: medium;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+button {
+    outline: none;
+}
+
+.cnt_btn {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ---------------------------------secondSection------------------------------ */
+.container{
+    background-color: #FCF5ED;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.firstsection{
+    height: 20%;
+    border-radius: 2px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+    flex-wrap: wrap;
+}
+.firstsection p{
+    padding-top: 12px;
+    padding-left: 30px;
+    width: 25%;
+}
+#customer_id{
+    padding-left: 5px;
+}
+.secondsection{
+    height: 76vh;
+    background-color:  white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.SecondSec_left{
+    width: 20%;
+    background: white;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SecondSec_left h3{
+    font-weight: 600;
+    font-family: "Aclonica", sans-serif;
+    font-size: 25px;
+}
+.button{
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px black solid ;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.SecondSec_right{
+    width: 80%;
+    height: 75vh;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+.summary{
+    height: 60%;
+    padding-left: 50px;
+    padding-top: 45px;
+    background: rgb(189, 186, 186);
+}
+.summary div button{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px black solid ;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.summary_textarea{
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+    background: white;
+}
+.description{
+    padding: 15px;
+    display: flex;
+    /* justify-content: center; */
+}
+.description p{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.description ul li{
+    font-weight: 500;
+}
+.interest{
+    height: 40%;
+    padding: 20px;
+    background: rgb(189, 186, 186);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.field{
+    width: 30%;
+    height: 60%;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: white;
+    border-radius: 5px;
+}
+.sales_to_pitch{
+    width: 30%;
+    height: 60%;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: white;
+    border-radius: 5px;
+}
